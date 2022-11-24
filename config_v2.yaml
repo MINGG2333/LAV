@@ -87,10 +87,10 @@ no_forecast: False
 no_refine: False
 #### MODEL DIR ####
 pixels_per_meter: 4
-lidar_model_dir: weights/lidar_v2_7.th
-bev_model_dir: weights/bev_v2_64.th
-uniplanner_dir: weights/uniplanner_v2_7.th
-bra_model_dir: weights/bra_v2_9.th
-seg_model_dir: weights/seg_1.th
+lidar_model_dir: ../LAV/weights/lidar_v2_7.th
+bev_model_dir: ../LAV/weights/bev_v2_64.th
+uniplanner_dir: ../LAV/weights/uniplanner_v2_7.th
+bra_model_dir: ../LAV/weights/bra_v2_9.th
+seg_model_dir: ../LAV/weights/seg_1.th
 ### DATASET DIR ###
 data_dir: [PATH TO DATASET]

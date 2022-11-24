@@ -5,9 +5,9 @@ import carla
 
 from torch.nn import functional as F
 
-from models.lidar import LiDARModel
-from models.uniplanner import UniPlanner
-from models.bev_planner import BEVPlanner
+from team_code_v2_models.lidar import LiDARModel
+from team_code_v2_models.uniplanner import UniPlanner
+from team_code_v2_models.bev_planner import BEVPlanner
 
 CAMERA_YAWS = [-60,0,60]
 
